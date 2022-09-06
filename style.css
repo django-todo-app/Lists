@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+body{
+    background: linear-gradient(135deg,rgb(0, 187, 255),rgb(89, 0, 255));
+    font-family: cursive;
+    text-align: left;
+    margin: 0px;
+}
+div.a{
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background:linear-gradient(45deg,violet,rgb(255, 251, 0));
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+div.b{
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background:linear-gradient(45deg,rgb(255, 85, 76),rgb(0, 255, 0));
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+div.c{
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background:linear-gradient(45deg,rgb(0, 208, 255),rgb(255, 0, 4));
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+div.d{
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background:linear-gradient(45deg,rgb(221, 0, 255),rgb(255, 0, 4));
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+button.button{
+    height: 100px;
+    width: 200px;
+    border-radius: 100px;
+    background:linear-gradient(45deg,rgb(255, 0, 0),rgb(0, 255, 85));
+    border-width: 0px;
+    opacity: 0.6;
+    transition: 0.5s;
+    box-shadow: 10px,10px,10px,10px;
+    
+}
+button.trans:hover{
+    transform: rotate(360deg);
+    opacity: 2;
+    
+}
+div:hover{
+    opacity: 2;
+}
+
+ul.n{
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+menu{
+    background-color: black;
+    height: 28px;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    
+    
+
+}
+nav{
+    float: left;
+    font-size: large;
+    padding-left: 10px;
+}
+select{
+    border: 0px;
+    background-color: transparent;
+    font-family: cursive;
+    font-size: large;
+
+}
+option{
+    background-color: rgb(0, 187, 255);
+    border:0px;
+    
+
+}
+a:hover{
+    background-color: white;
+    color:black;
+}
+a{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: white;
+    border-style: dotted;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    transition: 00.5s;
+}
+nav.left{
+    float: right;
+}
